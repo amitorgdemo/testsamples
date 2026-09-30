@@ -1,0 +1,43 @@
+{
+    "9ea2f70b-61dd-45c2-9e95-4633f459e80e": {
+        "id": "9ea2f70b-61dd-45c2-9e95-4633f459e80e",
+        "azure_resource_id": "/subscriptions/7deb6dec-3ee1-416d-b35f-f1b2bce29a90/resourceGroups/rg-free-tier-testing/providers/Microsoft.Network/virtualNetworks/vnet-free-tier-hub",
+        "name": "vnet-free-tier-hub",
+        "location": "eastus",
+        "resource_group": "rg-free-tier-testing",
+        "address_space": "192.168.0.0/16",
+        "subnets": [
+            {
+                "name": "frontend-subnet",
+                "address_prefix": "192.168.1.0/24"
+            },
+            {
+                "name": "backend-subnet",
+                "address_prefix": "192.168.2.0/24"
+            }
+        ],
+        "provisioning_state": "Succeeded"
+    },
+    "b815431c-6a96-4ab4-8aa5-3eb3203f409f": {
+        "id": "b815431c-6a96-4ab4-8aa5-3eb3203f409f",
+        "subscription_id": "7deb6dec-3ee1-416d-b35f-f1b2bce29a90",
+        "azure_resource_id": "/subscriptions/7deb6dec-3ee1-416d-b35f-f1b2bce29a90/resourceGroups/rg-free-tier-testing/providers/Microsoft.Network/virtualNetworks/vnet-free-tier-hub",
+        "name": "vnet-free-tier-hub",
+        "location": "eastus",
+        "resource_group": "rg-free-tier-testing",
+        "address_space": [
+            "192.168.0.0/16"
+        ],
+        "subnets": [
+            {
+                "name": "frontend-subnet",
+                "address_prefix": "192.168.1.0/24"
+            },
+            {
+                "name": "backend-subnet",
+                "address_prefix": "192.168.2.0/24"
+            }
+        ],
+        "provisioning_state": "Succeeded"
+    }
+}

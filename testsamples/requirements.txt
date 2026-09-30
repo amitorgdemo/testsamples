@@ -1,0 +1,11 @@
+fastapi
+# redis
+# types-redis
+uvicorn
+azure-identity
+azure-mgmt-resource
+azure-mgmt-network
+pydantic
+pydantic-settings
+python-jose[cryptography]   
+azure-mgmt-resource==10.3.0
